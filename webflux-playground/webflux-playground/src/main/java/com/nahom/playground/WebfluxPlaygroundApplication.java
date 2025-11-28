@@ -1,4 +1,4 @@
-package com.nahom.webflux_playground;
+package com.nahom.playground;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

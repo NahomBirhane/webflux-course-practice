@@ -25,6 +25,7 @@ public class ReactiveWebController {
                 .uri("/demo01/products")
                 .retrieve()
                 .bodyToFlux(Product.class)
+                //.onErrorComplete()
                 .doOnNext(p -> log.info("Received Product: {}", p));
     }
 
